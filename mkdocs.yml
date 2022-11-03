@@ -1,0 +1,5 @@
+site_name: 天天向上
+site_url: https://www.ttxs.ren/
+nav:
+    - Home: index.md
+    - About: about.md
