@@ -1,5 +1,16 @@
 site_name: 天天向上
 site_url: https://www.ttxs.ren/
 nav:
-    - Home: index.md
-    - About: about.md
+    - 首页: index.md
+    - 入门指南:
+        - 编写文档: user-guide/writing-your-docs.md
+        - 文档风格: user-guide/styling-your-docs.md
+    - 关于: about.md
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
